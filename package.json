@@ -1,0 +1,25 @@
+{
+  "name": "blog-server",
+  "version": "1.0.0",
+  "description": "node服务器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZWBruce/blog-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZWBruce/blog-server/issues"
+  },
+  "homepage": "https://github.com/ZWBruce/blog-server#readme",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-router": "^9.4.0",
+    "shelljs": "^0.8.4"
+  }
+}

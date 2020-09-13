@@ -2,7 +2,7 @@ const process = require('shelljs')
 
 
 console.log('开始构建镜像...')
-process.exec('docker build -t my-blog:1.0.0 -f ./myBlog/Dockerfile .')
+process.exec('docker build -t my-blog:1.0.0 -f ../myBlog/Dockerfile .')
 
 process.exec("docker rmi $(docker images | grep '<none>')")
 try {

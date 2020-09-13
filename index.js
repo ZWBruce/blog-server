@@ -21,6 +21,6 @@ router.get('/update', (ctx) => {
 })
 
 app.use(router.routes())
-app.listen(8080)
+app.listen(3001)
 
 // console.log('env: ', process.env.NODE_ENV)
